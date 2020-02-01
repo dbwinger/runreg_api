@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.name          = 'runreg_api'
   s.version       = RunregApi::VERSION
   s.authors       = ['dbwinger']
-  s.email         = ['dbwinger@gmail.com']
+  s.email         = ['daryl@entrision.com']
   s.homepage      = 'https://github.com/dbwinger/runreg_api'
   s.licenses      = ['MIT']
   s.summary       = '[summary]'
@@ -18,4 +18,10 @@ Gem::Specification.new do |s|
 
   s.platform      = Gem::Platform::RUBY
   s.require_paths = ['lib']
+
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'byebug'
+  s.add_development_dependency 'dotenv'
+
+  s.add_dependency 'httparty'
 end
