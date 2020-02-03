@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.email         = ['daryl@entrision.com']
   s.homepage      = 'https://github.com/dbwinger/runreg_api'
   s.licenses      = ['MIT']
-  s.summary       = '[summary]'
-  s.description   = '[description]'
+  s.summary       = 'Ruby wrapper for RunReg.com API'
+  s.description   = ''
 
   s.files         = Dir.glob('{bin/*,lib/**/*,[A-Z]*}')
   s.executables   = Dir.glob('bin/*').map { |f| File.basename(f) }
